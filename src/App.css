@@ -44,3 +44,14 @@ button{
   border-radius: 5px;
   cursor: pointer;
 }
+
+footer {
+  font-size: 14px;
+  color: #555;
+  position: fixed;
+  bottom: 10px;
+}
+.name {
+  color: #da64ad;
+  text-decoration: none;
+}

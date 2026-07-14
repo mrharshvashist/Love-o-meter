@@ -92,7 +92,9 @@ useEffect(() => console.log('name1:', name1, 'name2:', name2), [name1, name2])
       Calculate Love
     </button>
 
-
+    <footer>
+      <p>Made with ❤️ by <a href="https://github.com/mrharshvashist" target="_blank" rel="noopener noreferrer" className="name">mrharshvashist</a> & <a href="https://github.com/Kwshal" target="_blank" rel="noopener noreferrer" className="name">Kwshal</a></p>
+    </footer>
 
   </div>
 )
