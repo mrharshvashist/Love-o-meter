@@ -5,7 +5,7 @@ function App() {
   const [name1, setName1] = useState([])
   const [name2, setName2] = useState([])
   const [loveScore, setLoveScore] = useState(0)
-  const [letterCountList, setLetterCountList] = useState([])
+  // const [letterCountList, setLetterCountList] = useState([])
 
   // objecting containing letters and their corresponding values
   const letterValues = {
