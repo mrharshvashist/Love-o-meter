@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App.css'
+import ribbon from './assets/ribbon.jpg'
 
 function App() {
   const [name1, setName1] = useState([])
@@ -72,17 +73,21 @@ useEffect(() => console.log('name1:', name1, 'name2:', name2), [name1, name2])
 
   return (
   <div className="App">
+    <header>
+      Love-o-meter
+    </header>
+    <img src={ribbon} alt="ribbon" id='ribbon' />
     <h1>Love Score:{loveScore !== 0 ? ` ${loveScore}%` : ''}</h1>
     <div>
 
-    <label htmlFor="name1">Person 1:</label>
+    <label htmlFor="name1">Person 1: </label>
     {/* <p>{name1}</p> */}
     <input placeholder="Enter name" onKeyPress={(e) => e.key === 'Enter' && calculateLove()} type="text" id="name1" onChange={(e) => setName1(e.target.value.split(''))} />
     </div>
 
   
     <div>
-    <label htmlFor="name2">Person 2:</label>
+    <label htmlFor="name2">Person 2: </label>
     {/* <p>{name2}</p> */}
     <input placeholder="Enter name" onKeyPress={(e) => e.key === 'Enter' && calculateLove()} type="text" id="name2" onChange={(e) => setName2(e.target.value.split(''))} />
     </div>
