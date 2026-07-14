@@ -9,7 +9,11 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f0f0f0;
+  background-image: url("./assets/love ribbon.jpg");
+  background-size: cover;
+  /* background-color: #f0f0f0; */
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 .App{
     /* border: 1px solid #000; */
