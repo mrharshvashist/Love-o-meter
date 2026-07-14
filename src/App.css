@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+.App{
+    /* border: 1px solid #000; */
+padding: 20px;
+border-radius: 20px;
+height: fit-content;
+box-shadow:  0 0 2px #000000, 0 0 2px #000000;
+width: fit-content;
+gap: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+font-family: 'Courier New', Courier, monospace, sans-serif;
+font-weight: bold;
+
+}
+input{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  border: 2px solid #000000;
+  font-size: 16px;
+}
+button{
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: #da64ad;
+  color: white;
+  border: none;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
